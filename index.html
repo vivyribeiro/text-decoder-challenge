@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="./styles/style.css" />
+		<link rel="shortcut icon" href="./assets/favicon.svg" type="image/svg" />
+		<title>Decodificador de Texto - Challenge</title>
+		<link
+			href="https://fonts.googleapis.com/icon?family=Material+Icons"
+			rel="stylesheet"
+		/>
+	</head>
+
+	<body>
+		<header>
+			<nav class="menu">
+				<a href="index.html">
+					<img src="./assets/logo.svg" alt="Logo" title="Logo" />
+				</a>
+			</nav>
+		</header>
+
+		<main class="container">
+			<section class="section__form">
+				<form class="form__content">
+					<textarea
+						name="text__input"
+						id="text-input"
+						class="form__input"
+						required
+						placeholder="Digite seu texto"
+					></textarea>
+				</form>
+				<span class="form__tip"
+					><i class="material-icons exclametion__error">error</i> Apenas
+					letras minúsculas e sem acento.</span
+				>
+				<div class="container__buttons">
+					<button type="button" class="button primary__button" onclick="textEncoder()">Criptografar</button>
+					<button type="button" class="button secondary__button" onclick="textDecoder()">Descriptografar</button>
+				</div>
+			</section>
+			<aside class="aside__content" id="aside-content">
+				<p class="aside__content__encrypt">Test</p>
+				<div class="aside__empty__content">
+					<img src="./assets/search_messages.svg" alt="Nenhuma mensagem encontrada" title="Nenhuma mensagem encontrada" class="empty__content__img">
+					<h2 class="empty__content__title">Nenhuma mensagem encontrada</h2>
+					<p class="empty__content__text">Digite um texto que você deseja criptografar ou descriptografar.</p>
+				</div>
+				<button type="button" class="button secondary__button aside__content__copy" onclick="copyTextToClipboard()">Copiar</button>
+			</aside>
+		</main>
+
+		<script type="text/javascript" src="./js/script.js"></script>
+	</body>
+</html>

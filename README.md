@@ -16,6 +16,6 @@
 
 <br>
 
-![text-decoder](https://raw.githubusercontent.com/vivyribeiro/text-decoder-challenge/f18871b65aece2ee6071ed04b16bb0d65bb528b9/assets/preview_challenge.gif)
+![text-decoder](https://github.com/vivyribeiro/text-decoder-challenge/blob/main/assets/preview_challenge.gif?raw=true)
 
 <br>
